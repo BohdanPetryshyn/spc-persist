@@ -1,0 +1,25 @@
+{
+  "name": "spc-persist",
+  "version": "1.0.0",
+  "description": "SPC Message Persistence Service",
+  "main": "app",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BohdanPetryshyn/spc-persist.git"
+  },
+  "keywords": [
+    "Node",
+    "leveldb",
+    "amqp",
+    "rabbit"
+  ],
+  "author": "BohdanPetryshyn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BohdanPetryshyn/spc-persist/issues"
+  },
+  "homepage": "https://github.com/BohdanPetryshyn/spc-persist#readme"
+}
