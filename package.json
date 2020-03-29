@@ -21,5 +21,10 @@
   "bugs": {
     "url": "https://github.com/BohdanPetryshyn/spc-persist/issues"
   },
-  "homepage": "https://github.com/BohdanPetryshyn/spc-persist#readme"
+  "homepage": "https://github.com/BohdanPetryshyn/spc-persist#readme",
+  "dependencies": {
+    "amqplib": "^0.5.5",
+    "level": "^6.0.1",
+    "monotonic-timestamp": "0.0.9"
+  }
 }
