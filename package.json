@@ -1,5 +1,5 @@
 {
-  "name": "spc-persist",
+  "name": "@bpetryshyn/spc-persist",
   "version": "1.0.0",
   "description": "SPC Message Persistence Service",
   "main": "app",
