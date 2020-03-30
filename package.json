@@ -23,7 +23,10 @@
   },
   "homepage": "https://github.com/BohdanPetryshyn/spc-persist#readme",
   "dependencies": {
+    "@bpetryshyn/spc-amqp-client": "^1.0.11",
     "amqplib": "^0.5.5",
+    "ioredis": "^4.16.1",
+    "jsonstream": "^1.0.3",
     "level": "^6.0.1",
     "monotonic-timestamp": "0.0.9"
   }
