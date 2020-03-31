@@ -1,8 +1,8 @@
 const monotonicTimestamp = require('monotonic-timestamp');
 
-const redis = require('./redis');
+const levelDb = require('../levelDb');
 
 module.exports = message => {
   const content = JSON.stringify(message);
-  return redis.set(monotonicTimestamp(), content);
+  return levelDb.put(monotonicTimestamp(), content);
 };
